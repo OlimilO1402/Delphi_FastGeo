@@ -1,0 +1,46 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{1F9BA67D-5C0B-4263-AA46-9EF7DB08F429}#1.0#0#..\FastGeo\MBOFastGeo.tlb#TLBFastGeo
+Module=FastGeo; Bas\FastGeo.bas
+Module=FastGeoTypes; Bas\FGTypes.bas
+Class=TBaseConvexHull; Shared\TBaseConvexHull.cls
+Module=ModDelphi; Shared\ModDelphi.bas
+Class=TOrderedPolygon3D; Shared\TOrderedPolygon3D.cls
+Class=TOrderedPolygon2D; Shared\TOrderedPolygon2D.cls
+Class=TConvexHull2D; Shared\TConvexHull2D.cls
+Startup="Sub Main"
+HelpFile=""
+Command32=""
+Name="MBOFGbas"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="MBO-Ing.com"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+DeleteClass1=Form1
+DeleteClass2=Form1
+DeleteClass3=ModConsts
+DeleteClass4=TOrderedPolygon3D
