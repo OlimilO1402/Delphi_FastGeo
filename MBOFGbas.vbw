@@ -1,7 +1,0 @@
-FastGeo = 271, -5, 690, 624, C
-FastGeoTypes = 41, 69, 637, 495, C
-TBaseConvexHull = 0, 0, 570, 370, C
-ModDelphi = 132, 174, 702, 545, C
-TOrderedPolygon3D = 66, 87, 655, 457, C
-TOrderedPolygon2D = 0, 0, 0, 0, C
-TConvexHull2D = 110, 145, 697, 542, C
