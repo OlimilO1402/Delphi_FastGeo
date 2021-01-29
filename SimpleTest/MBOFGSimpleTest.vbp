@@ -1,0 +1,46 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{9104AE81-4073-458C-B9D5-FB72E94B8BAA}#1.0#0#..\tlb\MBOFastGeoD.tlb#TLBFastGeoD
+Module=FastGeo; ..\Bas\FastGeo.bas
+Module=FastGeoTypes; ..\Bas\FGTypes.bas
+Module=ModMain; ModMain.bas
+Module=ModTest2D; ModTest2D.bas
+Module=ModTest3D; ModTest3D.bas
+Module=ModDelphi; ..\Shared\ModDelphi.bas
+Class=TConvexHull2D; ..\Shared\TConvexHull2D.cls
+Class=TOrderedPolygon2D; ..\Shared\TOrderedPolygon2D.cls
+Class=TOrderedPolygon3D; ..\Shared\TOrderedPolygon3D.cls
+Class=TBaseConvexHull; ..\Shared\TBaseConvexHull.cls
+Startup="Sub Main"
+HelpFile=""
+ExeName32="MBOFGSimpleTest.exe"
+Command32=""
+Name="MBOFGbas"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="MBO-Ing.com"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
