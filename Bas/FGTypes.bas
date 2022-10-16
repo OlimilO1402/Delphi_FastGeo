@@ -1,4 +1,4 @@
-Attribute VB_Name = "FastGeoTypes"
+Attribute VB_Name = "FGTypes"
 Option Explicit
 'Double Precision!
 'VB und TypeLibs
